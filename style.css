@@ -1,0 +1,443 @@
+
+   /* font-family: "Roboto", sans-serif;
+    font-weight: 300;*/
+    
+  *{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+  }
+
+  h1, h3{
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+  }
+  h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    
+  }
+  body{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+   /*-------se-nav--------*/
+  .corsi{
+    min-height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .corsi{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+
+  .imagelogo{
+    width: 100px;
+    height: 60px;
+  }
+
+  .ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+  }
+
+  .link{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-weight: 500;
+    border-bottom: 2px;
+  }
+
+  .link:hover{
+    border-bottom: 2px solid rgb(27, 17, 96); 
+  }
+
+
+
+  /*------fin-nav---*/
+
+  header{
+    background-color: rgb(195, 187, 187);
+    color: white;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .href1{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  .article{
+    text-align: center;
+    color: black;
+  }
+
+  .href{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .imgarticle{
+    width: 100%;
+  }
+
+  .product1{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+  }
+
+  .major{
+    margin-right: 10px;
+    width: 25%;
+  }
+
+  .aside{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify end;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .min-aside{
+    font-family: "RocknRoll One", sans-serif;
+    font-size: 20px;
+  }
+
+ 
+
+  .stmain{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn-custom{
+    background-color: white;
+    border-radius: 50px;
+    border-color: white;
+    border-inline-start-color: rgb(100, 115, 242);
+  }
+
+  .btn-custom:hover{
+   background-color: rgb(16, 25, 84);
+   color: white;
+  }
+/*---------section-p2---*/
+
+  .article2{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./blue-hex-backgrounds-networking.jpg);
+    color: white;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    flex-wrap: nowrap;
+  }
+
+ 
+
+  .mondo{
+    justify-content: center;
+    align-content: center;
+    font-weight: 900;
+
+  }
+
+
+
+  .tornasu{
+  
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes icon{
+    0%{
+      transform: translateY(50px);
+    }100%{
+      transform: translateY(0px);
+    }
+  }
+
+  footer{
+    display: flex;
+    height: 30vh;
+    background-color: rgb(28, 28, 24);
+    color: white;
+    justify-content: space-around;
+    align-items: center; 
+  }
+
+  .letters{
+    list-style-type: none;
+  }
+
+  .pword{
+    text-align: justify;
+  }
+
+  .S2{
+    display: flex;
+    margin-top: 40px;
+    background-color: rgb(223, 223, 41);
+    padding-top: 10px;
+    justify-content: space-between;
+  }
+
+  .im-g{
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50px;
+  }
+
+  .click{
+    width: 10vw;
+    background-color:rgb(137, 48, 253);
+    color: white;
+    margin-top: 90px;
+    border-radius: 15px; 
+    border-color: rgb(4, 77, 60);
+    text-align: center;
+  }
+
+  .click:hover{
+    background-color: rgb(4, 77, 60);
+  }
+
+  .a{
+    text-decoration: none;
+  }
+
+  .min-aside:hover{
+    color: rgb(226, 226, 99);
+  }
+
+  .S22{
+    background-color: rgb(237, 237, 88);
+    color: white;
+    min-height: 10vh;
+    width: 100%;
+    margin-top: 1px;
+    justify-items: center;
+    padding-top: 20px;
+  }
+
+  .BL1{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 10px;
+    width: 15vw;
+    text-align: center;
+  }
+
+  .BL1 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  /*------------sezionebtstrap-blog1-------------------*/
+
+  .blognav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    min-height: 20px;
+    width: 100%;
+  }
+  .title{
+    font-family: "Handlee", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 10px;
+  }
+
+  .list{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    align-items: center;
+  }
+
+  .list-items{
+    margin-right: 20px;
+  }
+
+  .list a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .miro{
+    min-height: 1000px;
+    background-image: url(./pexels-tima-miroshnichenko-7991579.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ultimo{
+    font-size: 80px;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 100;
+    margin-top: 70px;
+  }
+  .blogimg{
+    background-size: cover;
+  }
+  /*---------------------------------*/
+
+  .customimg{
+    width: 20vw;
+  }
+  .text1{
+    text-align: center;
+    font-size: 15px;
+    width: 15vw;
+  }
+
+  .groupclass{
+    justify-content: right;
+    margin-left: 10px;
+  }
+
+ 
+    /*-------footer-------*/
+  
+    .bfooter{
+      justify-content: space-around;
+     
+    }
+  .btn-2223{
+    border-radius: 11px;
+  }
+  .btn-2223 a{
+    
+    align-items: end;
+  }
+
+
+
+
+  /*------btstrap-end--------------------*/
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+/* media Querries */
+/* keyword */
+
+@media screen and (max-width: 1000px){
+  header{
+      min-height: 70vh;
+  }
+}
+
+@media screen and (max-width: 850px){
+
+  header{
+      min-height: 30vh;
+  }
+
+  h1{
+      font-size: 30px;
+      font-weight: 600;
+  }
+  
+  .stmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .product1{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    
+  }
+
+  .major{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stmain{
+   flex-wrap: wrap;
+   width: 100%;
+  }
+
+  .aside{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    width: 50%;
+    min-height: 100px;
+  }
+  #top{
+    right: 100%;
+  }
+
+  .article2{
+    display: block;
+    min-height: 50vh;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2px;
+  }
+
+  footer{
+    display: block;
+  }
+
+  body{
+    margin: 0px;
+  } 
+}
